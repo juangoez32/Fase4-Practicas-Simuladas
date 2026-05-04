@@ -15,7 +15,7 @@ from servicio import ReservaDeSala, AlquilerEquipos, AsesoriaEspecializada
 from reserva import Reserva
 from excepciones import ValidationError, ReservaError
 
-
+# Simulacion, ejecuta pruebas para verificar el correcto funcionamiento 
 def simular_10_operaciones():
     print("\n--- INICIANDO DIAGNOSTICO AUTOMATICO DE ROBUSTEZ ---")
     logging.info("=========== NUEVA SESION DE PRUEBAS AUTOMATICAS ===========")
@@ -90,7 +90,7 @@ def simular_10_operaciones():
 
     print("\n--- SIMULACION COMPLETADA: LA APP NUNCA SE CERRO POR ERROR ---")
 
-
+# Interfaz de consola para interactuar con el sistema
 def menu_interactivo():
     while True:
         print("\n=== SOFTWARE FJ - SISTEMA DE GESTION (POO) ===")
@@ -118,7 +118,7 @@ def menu_interactivo():
             break
         else:
             print("Opcion invalida.")
-
+# Abre el menu, solo si el archivo se ejecuta directamente 
 
 if __name__ == "__main__":
     menu_interactivo()
