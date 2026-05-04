@@ -6,12 +6,13 @@ from excepciones import ValidationError
 
 
 class Entidad(ABC):
-    """Clase base abstracta para todas las entidades del sistema."""
+    # Clase base abstracta para todas las entidades del sistema, sirve como plantilla
+    #obligatoria para otras clases
 
     @abstractmethod
     def obtener_detalles(self):
         pass
-
+# Representa a un cliente del sistema 
 
 class Cliente(Entidad):
     """Representa un cliente con encapsulamiento robusto."""
