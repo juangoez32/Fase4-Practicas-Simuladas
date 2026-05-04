@@ -1,6 +1,7 @@
 # ==========================================
 # CONFIGURACION CENTRALIZADA DE LOGGING
 # ==========================================
+# Se configura un archivo llamado logs.txt donde se almacenarán eventos importantes del sistema como errores y registro de clientes
 import logging
 import os
 
