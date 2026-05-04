@@ -6,7 +6,7 @@ from cliente import Cliente
 from servicio import Servicio
 from excepciones import ValidationError, ReservaError
 
-
+# Aqui se une el cliente + el servicio + la cantidad 
 class Reserva:
     """Motor central que procesa reservas con manejo robusto de excepciones."""
 
